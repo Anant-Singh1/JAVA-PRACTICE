@@ -1,4 +1,4 @@
-// 4. ArmStrong Number e.g 153 1 ^3 + 5 ^ 3 + 3 ^3 = 153
+// 7. ArmStrong Number e.g 153 1 ^3 + 5 ^ 3 + 3 ^3 = 153
 public class ArmstrongNumber {
     public static void main(String[] args) {
         int num=153;

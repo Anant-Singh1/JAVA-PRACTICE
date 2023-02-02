@@ -1,4 +1,4 @@
-// 1.  Reverse a Number (Hint : % , *)
+// 3.  Reverse a Number (Hint : % , *)
 public class Reverse{
     public static void main(String[] args) {
         int num=1234;
