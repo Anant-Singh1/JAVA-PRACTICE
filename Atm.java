@@ -49,6 +49,9 @@ public class Atm
                 System.out.println("Thank-You for Using The Services");
                 System.exit(1);
             }
+        I.close();
+
         }
+
     }
 }

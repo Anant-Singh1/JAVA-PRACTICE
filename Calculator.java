@@ -41,7 +41,7 @@ public class Calculator {
                 break;
                 default:System.out.println("Wrong Choice");
             }
-
+I.close();
 
         }
 }
