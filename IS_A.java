@@ -1,14 +1,14 @@
 class Account {
     void deposit(int amount) {
-        System.out.println("Account Class::Amount Deposited-:" + amount);
+        System.out.println("Account Class::::Amount Deposited-:" + amount);
     }
 
     void withdraw(int amount) {
-        System.out.println("Account Class::Amount Withdraw-:" + amount);
+        System.out.println("Account Class::::Amount Withdraw-:" + amount);
     }
 
     void rateOfInterest() {
-        System.out.println("Account Class::roi is 12%");
+        System.out.println("Account Class::::roi is 12%");
 
     }
 
@@ -32,6 +32,7 @@ class CurrentAccount extends Account {
 }
 
 class AccountCaller {
+    // Polymorphic Function....
     void callAccount(Account acc) {// Upcasting
         acc.deposit(10000);
         acc.withdraw(5000);
